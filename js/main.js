@@ -1,6 +1,27 @@
 
-       
-       /*===== Resize Navbar on Scroll =====*/
+ document.addEventListener('DOMContentLoaded',function saudacaoDeAcordoComHora() {
+        var agora = new Date();
+        var hora = agora.getHours();
+        var saudacao = "Olá!";
+        var saudacaoDiv = document.getElementById('saudacao')
+    
+        if (hora >= 5 && hora < 12) {
+            saudacao = "Bom dia!";
+        } else if (hora >= 12 && hora < 18) {
+            saudacao = "Boa tarde!";
+        } else if (hora >= 18) {
+            saudacao = "Boa noite!";
+        } else {
+            saudacao = "Boa madrugada!";
+        }
+    
+        saudacaoDiv.textContent = saudacao;
+    });
+    
+    
+
+
+    /*===== Resize Navbar on Scroll =====*/
        var navbar = document.querySelector(".navbar");
        // when the scroll is higher than 20 viewport height, add the sticky classs to the tag with a class navbar 
        window.onscroll = () =>{
@@ -160,26 +181,10 @@
                      }
                   })
 
-                  function saudacaoDeAcordoComHora() {
-                    var agora = new Date();
-                    var hora = agora.getHours();
-                    var saudacao = "Olá!";
-                    var saudacaoDiv = document.getElementById("saudacao");
-                
-                    if (hora >= 5 && hora < 12) {
-                        saudacao = "Bom dia!";
-                    } else if (hora >= 12 && hora < 18) {
-                        saudacao = "Boa tarde!";
-                    } else if (hora >= 18) {
-                        saudacao = "Boa noite!";
-                    } else {
-                        saudacao = "Boa madrugada!";
-                    }
-                
-                    saudacaoDiv.textContent = saudacao;
-                }
-                
-                saudacaoDeAcordoComHora();
+                  
+
+                  
+                  
 
                 
             

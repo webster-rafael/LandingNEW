@@ -387,15 +387,20 @@ img
     max-width: 50%;
     padding: 0 25px;
 }
-.home-section .home-text #saudacao
+.home-section .home-text
 {
     font-size: 2.0rem;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--main-color);
+    color: white;
     
     font-family: 'Economica', sans-serif;
     
+}
+
+#saudacao {
+    color: white;
+    font-size: 1.5rem;
 }
 .home-section .home-text h1
 {
