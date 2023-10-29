@@ -361,7 +361,7 @@ img
 .header-social
 {
     position: absolute;
-    top: 53%;
+    top: 43%;
     left: 50px;
     transform: translateY(53%);
     border: 1px solid var(--white);
@@ -1239,6 +1239,9 @@ footer .copyright-text
     .header-social
     {
         left: 5%;
+        top: 55%;
+        
+        
     }
     .service-section .service-item,
     .portfolio .portfolio-item,
