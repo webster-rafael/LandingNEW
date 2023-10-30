@@ -1234,12 +1234,12 @@ footer .copyright-text
         max-width: 50%;
     }
 }
-@media(max-width: 807px)
+@media(max-width: 767px)
 {
     .header-social
     {
         left: 5%;
-        top: 50%;
+        top: 55%;
         
         
     }
