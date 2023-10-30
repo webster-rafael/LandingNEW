@@ -1193,6 +1193,7 @@ footer .copyright-text
     {
         display: block;
         left: 90%;
+        z-index: 9999;
     }
     .header-hero-shape
     {
@@ -1240,6 +1241,7 @@ footer .copyright-text
     {
         left: 5%;
         top: 62%;
+        z-index: 9999;
         
         
     }
