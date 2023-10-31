@@ -1120,10 +1120,8 @@ img
 footer 
 {
     background-color: var(--main-color);
-    width: 150%;
+    width: 100%;
     margin-top: 125px;
-    position: relative;
-    left: -24%;
 
     
     
