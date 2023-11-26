@@ -1162,6 +1162,11 @@ footer .copyright-text
     {
         left: 10px;
     }
+
+    .home-section .home-image .img-box img 
+    {
+        width: 149%;
+    }
 }
 @media  (max-width:1300px)
 {
